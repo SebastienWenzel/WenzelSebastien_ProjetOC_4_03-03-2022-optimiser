@@ -1,0 +1,10 @@
+
+#
+
+User-agent: Googlebot
+Disallow: /https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/page/contact.html
+
+User-agent: *
+Allow: /
+
+sitemap:https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/sitemap.txt

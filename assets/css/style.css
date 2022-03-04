@@ -56,7 +56,7 @@ header {
   padding-top: 15px;
   height: auto;
   min-height: 80px;
-  border-bottom: 2px solid #b33200;
+  border-bottom: 2px solid #b63603;
 }
 main {
   max-width: 1200px;
@@ -71,7 +71,7 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #b33200;
+  background-color: #b63603;
   padding: 40px 5px;
 }
 .bloc-3-card a {
@@ -109,11 +109,11 @@ figure {
   max-width: 350px;
 }
 blockquote {
-  border-color: #b33200;
+  border-color: #b63603;
   margin-top: 50px;
 }
 blockquote p {
-  color: #b33200;
+  color: #b63603;
   font-size: 1.7rem;
   font-weight: bold;
 }
@@ -158,7 +158,7 @@ footer li ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #b33200;
+  background-color: #b63603;
 }
 #bloc-5-cta h3 {
   font-size: 3.4rem;
@@ -342,7 +342,7 @@ a {
   padding: 12px 28px 12px 28px;
   font-size: 2rem;
   font-weight: 700;
-  background-color: #b33200;
+  background-color: #b63603;
 }
 .social {
   max-width: 400px;
@@ -395,7 +395,7 @@ h5 {
   margin-bottom: 24px;
 }
 .bgc-atomic-tangerine {
-  background-color: #b33200;
+  background-color: #b63603;
 }
 .tc-white {
   color: #fff;
@@ -406,12 +406,12 @@ h5 {
   opacity: 0.8;
 }
 .icon-dark-orange {
-  color: #b33200;
-  border-color: #b33200;
+  color: #b63603;
+  border-color: #b63603;
 }
 .bg-banniere {
   background-image: url("../img/agence-la-panthere-min.jpg");
-  background-color: #b33200;
+  background-color: #b63603;
 }
 .bg-presentation {
   background-image: url("../img/image-de-presentation-min.jpg");
@@ -426,7 +426,7 @@ select {
   font-size: 1.5rem;
 }
 select:focus {
-  color: #b33200;
+  color: #b63603;
   border: 1px solid #55a0e6;
 }
 option {
@@ -446,7 +446,7 @@ th {
   padding: 5px;
 }
 kbd {
-  background-color: #b33200;
+  background-color: #b63603;
 }
 .container-contact {
   display: flex;
