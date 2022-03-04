@@ -42,8 +42,8 @@ button {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
   color: orange;
+  text-decoration: none;
   cursor: pointer;
 }
 header {
@@ -73,13 +73,13 @@ figure {
   padding: 40px 5px;
 }
 .bloc-3-card a {
-  text-decoration: underline;
-  color: white;
   font-weight: bold;
+  color: white;
+  text-decoration: underline;
 }
 .bloc-3-card a:hover {
-  text-decoration: none;
   color: orange;
+  text-decoration: none;
   cursor: pointer;
 }
 #bloc-6 h1 {
@@ -122,9 +122,9 @@ blockquote p {
   margin: 5px;
 }
 .navbar-nav > li > a {
-  color: white;
-  font-size: 2rem;
   font-weight: bold;
+  font-size: 2rem;
+  color: white;
 }
 footer {
   padding: 20px;
@@ -250,7 +250,7 @@ h1 {
 }
 .btn-d,
 .btn-d:hover {
-  background: rgba(255, 165, 0, 0.5);
+  background: #ffa50080;
   color: #fff;
 }
 button {
