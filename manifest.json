@@ -1,0 +1,15 @@
+{
+    "name": "la panthère agence" ,
+    "short_name": "la panthère" ,
+    "start_url": "https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/",
+    "display": "browser",
+    "background_color": "#fff",
+    "theme_color": "#b63603",
+    "icon":[
+        {
+            "src": "/assets/img/logo.png ",
+            "type":"image/png",
+            "size": "533x533"
+        }
+    ]
+}
