@@ -7,7 +7,9 @@ body {
   background: #fff;
   overflow-x: hidden;
 }
-
+*:focus {
+  border: 2px solid #55a0e6;
+}
 img {
   object-fit: cover;
 }
@@ -216,7 +218,8 @@ h1 {
 .slash {
   border-right: 2px solid white;
 }
-.nav > li a:hover {
+.nav > li a:hover,
+.nav > li a:focus {
   color: orange;
   background: transparent;
 }
@@ -249,7 +252,8 @@ h1 {
   margin: 0 5px 5px 0;
 }
 .btn-d,
-.btn-d:hover {
+.btn-d:hover,
+.btn-d:focus {
   background: #ffa50080;
   color: #fff;
 }
@@ -421,7 +425,10 @@ select {
   margin: 10px 0;
   font-size: 1.5rem;
 }
-
+select:focus {
+  color: #b33200;
+  border: 1px solid #55a0e6;
+}
 option {
   font-size: 1.5rem;
   background-color: #fff;

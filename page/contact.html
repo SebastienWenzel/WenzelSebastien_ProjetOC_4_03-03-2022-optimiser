@@ -49,13 +49,12 @@
 	<!-- Analytics END -->    
 	</head>
 	<body>
-		<div class="container-contact">
-			<!-- Principal conteneur -->
+	<div class="container-contact">
 	<!--                       HEADER                       -->
 	<header>
 		<nav role="navigation" id="align-nav" class="navbar">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="./index.html">
+				<a class="navbar-brand" href="../accueil.html" tabindex="0">
 					<img src="../assets/img/agence-la-panthere-monochrome.svg" alt="logo principal de l'agence de design représtant une panthère" height="40">
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -68,7 +67,7 @@
 			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="../index.html">Accueil</a>
+						<a href="../accueil.html" tabindex="0" accesskey="a">Accueil</a>
 					</li>
 				</ul>
 			</div>
@@ -93,15 +92,15 @@
 		<div class="bgc-grey l-bloc container bloc-lg col-sm-6" id="bloc-7">
 		  <form>
 			<div class="form-group">
-			  <label> Nom </label>
+			  <label for="name"> Nom </label>
 			  <input id="name" class="form-control" autofocus required />
 			</div>
 			<div class="form-group">
-			  <label> Adresse email </label>
+			  <label for="email"> Adresse email </label>
 			  <input id="email" class="form-control" type="email" required />
 			</div>
 			<div class="form-group">
-			  <label > Comment nous avez-vous connu ? </label>
+			  <label for="input_504" > Comment nous avez-vous connu ? </label>
 			  <select name="form-group" id="input_504">
 				<option value="" disabled>Selectionnez une raison</option>
 				<option value="web">Sur le web</option>
@@ -111,7 +110,7 @@
 			  </select>
 			</div>
 			<div class="form-group">
-			  <label > Brief de votre projet:</label
+			  <label for="message" > Brief de votre projet:</label
 			  ><textarea
 				id="message"
 				class="form-control"
@@ -165,91 +164,59 @@
 			<li class="col-sm-3">
 				<a
 				class="social"
+				aria-label="retrouvez nous sur Twitter"
 				href="https://twitter.com"
 				>	
 					<span
 						class="fa fa-twitter icon-md"
 						title="Twitter"
+						aria-hidden="true"
 					></span>
 				</a>
 			</li>
 			<li class="col-sm-3">
 				<a
 				class="social"
+				aria-label="retrouvez nous sur Facebook"
 				href="https://www.facebook.com"
 				>
 					<span
 						class="fa fa-facebook icon-md"
 						title="Facebook"
+						aria-hidden="true"
 					></span>
 				</a>
 			</li>
 			<li class="col-sm-3">
 				<a
 				class="social"
+				aria-label="retrouvez nous sur Dribbble"
 				href="https://dribbble.com"
 				>
 					<span
 						class="fa fa-dribbble icon-md"
 						title="Dribbble"
+						aria-hidden="true"
 					></span>
 				</a>
 			</li>
 			<li class="col-sm-3">
 				<a
 				class="social"
+				aria-label="retrouvez nous sur Instagram"
 				href="https://www.instagram.com"
 				>
 					<span
 						class="fa fa-instagram icon-md"
 						title="Instagram"
+						aria-hidden="true"
 					></span>
 				</a>
-		</li>
+			</li>
 		</ul>
-		<div class="row">
-			<div class="col-sm-4">
-				Partenaires
-					<ul>
-						<li><a href="voiture.com">voiture.com</a></li>
-						<li><a href="pizza.com">pizza.com</a></li>
-						<li><a href="matoiture.com">matoiture.com</a></li>
-						<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-					</ul>		
-			</div>
-			<div class="col-sm-4">
-				Annuaires liste 1
-				<ul>
-					<li><a href="annuaireagence.com">annuaireagence.com</a></li>
-					<li><a href="annuaireseo.com">annuaireseo.com</a></li>
-					<li><a href="annuairemarketing.com">annuairemarketing.com</a></li>
-					<li><a href="123seoture.com">123seo.com</a></li>
-					<li><a href="123site.com">123site.com</a></li>
-					<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
-					<li><a href="listeagence.com">listeagence.com</a></li>
-					<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
-					<li><a href="listeseo.com">listeseo.com</a></li>
-				</ul>
-			</div>
-			<div class="col-sm-4">
-				Annuaires liste 2
-				<ul>
-					<li><a href="betterseo.com">betterseo.com</a></li>
-					<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
-					<li><a href="seojuicelien.com">seojuicelien.com</a></li>
-					<li><a href="meilleursliens.com">meilleursliens.com</a></li>
-					<li><a href="liensagogo.com">liensagogo.com</a></li>
-					<li><a href="backlink.com">backlink.com</a></li>
-					<li><a href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
-					<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
-					<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
-				</ul>
-			</div>
-		</div>
 	</footer>
 	<!--                           FOOTER - BLOC 8 END                      -->
-<!-- Principal conteneur END -->
-		</div>
+	</div>
 	
 	</body>
 <!-- SCRIPT et CDN -->
