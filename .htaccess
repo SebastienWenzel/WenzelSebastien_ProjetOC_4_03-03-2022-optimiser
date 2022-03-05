@@ -1,13 +1,12 @@
 
-#configuration
+# configuration
 
-#Activation du module de réécriture d'url
+# Activation du module de réécriture d'url
 RewriteEngine On
-#règle de réécriture d'url
+# règle de réécriture d'url
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 RewriteCond %{http_host} ^xsenikx.github.io/WenzelSebastien_4_03-03-2022-optimiser/ [nc]
-
 RewriteRule ^(.*)$ https://xsenikx.github.io/WenzelSebastien_4_03-03-2022-optimiser/$1 [r=301,nc]
 
 # Encodage par défaut des fichiers textes et HTML
@@ -19,7 +18,7 @@ Options All -Indexes
 # Alternative pour empêcher le listage des répertoires
 IndexIgnore *
 
-#indique aux serveurs proxy situés entre le navigateur de l'internaute et votre serveur de stocker deux versions des pages : une version générée normalement et une version compressée. 
+# indique aux serveurs proxy situés entre le navigateur de l'internaute et votre serveur de stocker deux versions des pages : une version générée normalement et une version compressée. 
 <IfModule mod_headers.c>
   <FilesMatch ".(js|css|xml|gz|html)$">
     Header append Vary: Accept-Encoding
