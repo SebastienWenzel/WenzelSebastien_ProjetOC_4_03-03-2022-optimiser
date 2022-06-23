@@ -414,7 +414,7 @@ h5 {
   background-color: #b63603;
 }
 .bg-presentation {
-  background-image: url("../img/image-de-presentation-min.jpg");
+  background-image: url("../img/image-de-presentation-min.png");
 }
 .bg-fixed {
   background-image: url("../img/agence-la-panthere-min.jpg");
@@ -509,7 +509,7 @@ kbd {
     background-image: url("../img/agence-la-panthere-min.jpg");
   }
   .bg-presentation {
-    background-image: url("../img/image-de-presentation-min.jpg");
+    background-image: url("../img/image-de-presentation-min.png");
     background-position-y: inherit;
   }
   .bg-fixed {
