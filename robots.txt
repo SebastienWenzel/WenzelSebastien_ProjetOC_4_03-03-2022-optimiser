@@ -7,4 +7,4 @@ Disallow: /https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/pag
 User-agent: *
 Allow: /
 
-sitemap:https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/sitemap.txt
+sitemap:https://github.com/xsenikx/WenzelSebastien_4_03-03-2022-optimiser/sitemap.xml
